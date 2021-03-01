@@ -1,0 +1,72 @@
+\documentclass[12pt]{article}
+\usepackage{graphics}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+
+\oddsidemargin -0.75in
+\textheight 10.5in
+\textwidth 7.5in
+\topmargin -0.5in
+
+\pagestyle{empty}
+
+\def\nn{\noindent}
+\def\ds{\displaystyle}
+
+\begin{document}
+\nn {\it MATH 560-01} \hfill NAME {\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+
+\vskip 5mm
+
+\nn {\bf PRACTICE EXAM 1 \#3: 2:30pm--3:45am March --, 20--. (100 points)} The exam is open book, open notes, and students are permitted to use a calculator and/or computer.  Students are expected to complete the exam individually and are not permitted to communicate in any format with others during the exam.  It is advised that students show all work and attempt each question to maximize the score.
+ 
+\vskip 5mm
+\nn 1. (20 points) The personal identification numbers (PINs) for automatic teller machines usually
+consist of four digits.  You notice that many of your PINs have at least one 0, and you wonder if the issuers use lots of 0s to make numbers easy to remember. Suppose that PINs are assigned at random,
+so that all four-digit numbers are equally likely. \\ 
+\nn (a - 6 pts) How many possible PINs are there? \\
+\nn (b - 7 pts) What is the probability that a PIN assigned at random has at least one 0? \\
+\nn (c - 7 pts) What is the probability that all digits are the same (i.e., 0000, or 1111, or 2222, etc.) for a PIN assigned at random?
+%Answers: (a) 10^4=10000
+%(b) 1-P(N=0)=1-.9^4=1-.6561=.3439
+%(c) .1^3=.001
+\newpage
+\nn 2. (20 points) Suppose that the probability distribution of a random variable $X$ has the density curve
+\[
+f(x)=\left\{ \begin{array}{cl} \frac{1}{4}x^3 & \mbox{if } 0 < x < 2 \\ \\
+0 & \mbox{otherwise}
+\end{array}\right. .
+\]
+\nn (a -- 7 pts) Compute $P(X>1)$. \\
+\nn (b -- 6 pts) Compute $\mu_X$, the mean of $X$. \\
+\nn (c -- 7 pts) Compute $\sigma_X$, the standard deviation of $X$. 
+%Answers:
+%(a) 15/16 (b) 8/5 (c) 2/5*sqrt(2/3)=.3265986
+\newpage
+\nn 3. (20 points) A fair coin is tossed 20 times.  Let $X$ be the number of times that the coin comes up heads. \\
+\nn (a - 8 pts) Compute $P(X=10)$, rounded to at least 4 decimal places. \\
+\nn (b - 3 pts) Compute $\mu_X$, the mean of $X$. \\
+\nn (c - 3 pts) Compute $\sigma_X^2$, the variance of $X$. \\
+\nn (d - 6 pts) Using parts (b) and (c) and the central limit theorem with a continuity correction, approximate $P(X=10)$, rounded to at least 4 decimal places.
+%Answers:
+%(a) .1762 (b) 10 (c) 5 (d) .1769
+\newpage
+\nn 4. (20 points) Since 2007, the American Psychological Association has supported an annual nationwide survey to examine stress across the United States. A total of 340 Millennials (18- to 33-year-olds) were asked to indicate their average stress level (on a 10-point scale) during the past month. The mean score was 5.4.  Assume that the population standard deviation is 2.3. \\
+\nn (a - 10 pts) Give the margin of error and find the 99\% confidence interval.  Round the values to at least 3 decimal places. {Margin of error=\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }, Confidence interval: (\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }, \underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ })}  \\
+\nn (b - 10 pts) Find the sample size needed so that the 99\% confidence interval will have a margin of error of at most 0.2.   The stated sample size should be an integer. {\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+%Answers: (a) .321, (5.079,5.721) (b) 878
+\newpage
+\nn 5. (20 points) To assess the accuracy of a laboratory scale, a standard weight known to weigh 10 grams is weighed repeatedly.  The scale readings are Normally distributed with unknown mean (this mean is 10 grams if the scale has no bias).  The standard deviation of the scale readings is known to be 0.3 grams. \\ 
+A scientist collects the following 9 independent observations of scale readings, in grams:
+\[
+9.9, 9.6, 9.5, 9.8, 10.0, 9.5, 9.7, 9.6, 10.4.
+\]
+Is there strong evidence against the claim that the scale has no bias?  To answer this question, perform a test of significance at level $\alpha=.05$.  Carefully state the hypotheses, calculate an appropriate test statistic, compute the $P$-value, and state your conclusion.
+%Answer: 
+%Test H0: mu=10 versus Ha: mu not equal to 10.
+%The test statistic is z=-2.22.
+%The P-value= is .026.
+%So, we reject H0 at level .05.
+
+\end{document}

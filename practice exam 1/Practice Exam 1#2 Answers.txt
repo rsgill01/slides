@@ -1,0 +1,10 @@
+Practice Exam 1#2 Answers:
+1. (a) .3 (b) .8 (c) .38 (d) .5904
+2. (a) 10.16 (b) .0762 (c) 14 (d) .05
+3. .4207
+4. (a) (19.943, 19.957) (b) 22
+5. Test H0: mu=110 versus Ha: mu > 110.
+The test statistic is z=2.4.
+The P-value= is 0082.
+So, we reject H0 at level .01.
+
